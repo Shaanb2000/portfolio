@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Shaan Bhakta</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="top-nav" aria-label="Main navigation">
+      <a class="brand" href="/">S. Bhakta</a>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/cv/">CV</a></li>
+        <li><a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Contact</h1>
+      <p class="subtitle">Get in touch — I'll reply to student/collaboration inquiries.</p>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Send a message</h2>
+      <p>If you'd like to reach me, use the form below. This will open your email client with a prefilled message (example values are provided).</p>
+
+      <form action="mailto:shaansdsc@example.edu" method="POST" enctype="text/plain">
+        <div>
+          <label for="name">Name</label>
+          <input id="name" name="Name" type="text" value="Sonia Example" required />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="Email" type="email" value="sonia@example.com" required />
+        </div>
+
+        <div>
+          <label for="subject">Subject</label>
+          <input id="subject" name="Subject" type="text" value="DSC 106 question" />
+        </div>
+
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="Message" rows="6">Hello Shaan,
+
+I'm a DSC student interested in your GroceryDB project. Could you share the dataset or visualization code?
+
+Thanks,
+Sonia</textarea>
+        </div>
+
+        <div>
+          <button type="submit">Send email</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <time datetime="2025-10-18">2025</time> Shaan Bhakta</p>
+  </footer>
+</body>
+</html>
